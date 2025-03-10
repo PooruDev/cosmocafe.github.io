@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CosmoCafé</title>
+    <!-- Icon Source Codes -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <!-- CSS Connection -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Menu Section -->
+    <nav class="menu">
+        <a href="#home" class="starbucks">
+            <img src="logo.png" alt="Starbucks Logo"> 
+            <span>CosmoCafé</span>
+        </a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <ul>
+            <li>
+                <a href="#banner">
+                    <i class="bx bx-home"></i> Home
+                </a>
+            </li>
+            <li>
+                <a href="#about">
+                    <i class="bx bx-info-circle"></i> About
+                </a>
+            </li>
+            <li>
+                <a href="#rewards">
+                    <i class='bx bx-gift'></i> Rewards
+                </a>
+            </li>
+            <li>
+                <a href="#products">
+                    <i class="bx bx-coffee-togo"></i> Products
+                </a>
+            </li>
+            <li>
+                <a href="#contact" id="openModal">
+                    <i class="bx bx-phone-call"></i> Contact
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Banner Section -->
+    <section>
+        <header class="banner" id="banner">
+            <div class="slogan">
+                <p>Savor the Joys of Spring</p>
+                <a href="#products" class="discover-btn">Discover the flavors</a>
+            </div>
+        </header>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="content">
+            <div class="text">
+                <h2>CosmoCafé</h2>
+                <p>
+                    A famous coffeehouse chain founded in 1971 in Seattle, Starbucks is known for its premium coffee, handcrafted drinks, and cozy atmosphere. It emphasizes ethical sourcing, sustainability, and community, making it a popular spot worldwide.
+                </p>
+                <button class="button">Read more</button>
+            </div>
+            <img src="logo.png">
+        </div>
+    </section>
+
+    <!-- Rewards Section -->
+    <section id="rewards" class="rewards">
+        <div class="rewardbanner">
+            <div class="content">
+                <h1>FREE COFFEE IS A TAP AWAY</h1>
+                <p>Join now to start collecting Stars.</p>
+                <a href="#getting-started" class="btn">Join now</a>
+            </div>
+            <div class="image">
+                <img src="coffee.png" alt="Starbucks Coffee and App">
+            </div>
+        </div>
+    </section>
+
+    <!-- ag service section sir gihimo ko guide para sa rewards-->
+    <!-- Getting Started Section -->
+    <section class="getting-started" id="getting-started">
+        <div class="started">
+            <h1>Getting started is easy</h1>
+            <p class="subheading">Collect Stars and get rewarded in a few steps</p>
+        </div>
+        <div class="steps">
+            <div class="step">
+                <div class="circle">1</div>
+                <h2>Create an account</h2>
+                <p>To get started, <a href="#">join now</a>. You can also <a href="#">join in the app</a> to get access to the full range of Starbucks® Rewards benefits.</p>
+            </div>
+
+            <div class="step">
+                <div class="circle">2</div>
+                <h2>Order and pay how you’d like</h2>
+                <p>Use cash, credit/debit card or save some time and pay right through the app. You’ll collect Stars all ways. <a href="#">Learn how</a></p>
+            </div>
+
+            <div class="step">
+                <div class="circle">3</div>
+                <h2>Collect Stars, earn Rewards</h2>
+                <p>When you collect Stars, you can redeem them for Rewards — like free food and drinks.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+    instead na ibutang tong organizational alignment (mission,vision, og feedback) 
+    gihimo ko rakan Product Section sir kay mo bagay 
+    -->
+
+    <!-- Products Section -->
+     
+    <section id="products">
+        <h2 class="heading-products">Products</h2>
+        <div class="starProd">
+            <div class="image-item">
+                <img src="product1.jpg" alt="Frappuccino">
+                <h3>Frappuccino</h3>
+            </div>
+            <div class="image-item">
+                <img src="product2.jpg" alt="Milk & Honey">
+                <h3>Milk & Honey</h3>
+            </div>
+            <div class="image-item">
+                <img src="product3.jpg" alt="Caramel Smore">
+                <h3>Caramel Smore</h3>
+            </div>
+            <div class="image-item">
+                <img src="product4.jpg" alt="Sakura">
+                <h3>Sakura</h3>
+            </div>
+            <div class="image-item">
+                <img src="product5.jpg" alt="Valentine Choco">
+                <h3>Valentine Choco</h3>
+            </div>
+            <div class="image-item">
+                <img src="product6.jpg" alt="Choco Mint">
+                <h3>Choco Mint</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacts Section -->
+
+    <div class="content">
+        <section id="contact">
+            <h3>Contact Us</h3>
+            <div class="container">
+                <div class="left-column">
+                    <h2>Contact Us</h2>
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="button">Submit</button>
+                    </form>
+                </div>
+                <div class="right-column">
+                    <h2>Our Location</h2>
+                    <img src="location.png" alt="Location Map" usemap="#image-map">
+                    <map name="image-map">
+                        <area shape="rect" coords="0,1,497,455" alt="Office" href="https://example.com/office" target="_blank">
+                        <area shape="circle" coords="248,237,40" alt="Branch" href="https://example.com/branch" target="_blank">
+                    </map>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Starbucks Design. All rights reserved.</p>
+    </footer>    
+
+    <!-- JavaScript Connection -->
+    <script src="script.js"></script>
+</body>
+</html>
